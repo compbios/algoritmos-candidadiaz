@@ -1,10 +1,9 @@
 
-Algoritmo sin_titulo
-	Definir a Como Entero
-	Leer a
-	Si a MOD 2 = 0 Entonces
-		Escribir "es par"
-	SiNo
-		Escribir "es impar"
-	Fin Si
+Algoritmo volumen_cilindro
+	Escribir "Dime la altura del cilindro"
+	Leer altura
+	Escribir "Dime el radio del cilindro"
+	Leer radio
+	Escribir "El volumen del cilindro es" , pi*altura*radio^2
 FinAlgoritmo
+
